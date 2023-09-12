@@ -16,6 +16,22 @@
     .board {
       display: inline-grid;
       padding: 35;
+
+      
+    }
+
+    .CP{
+      text-align: center;
+      margin-top: 70;
+    }
+
+    .CardHeader{
+      text-align: center;
+      
+    }
+    
+    .deleteFrom{
+      text-align: center;
     }
   </style>
 </head>
@@ -51,6 +67,30 @@
       </div>
     </div>
   </div>
+
+
+  <h1 class="CP">Control Pannel</h1>
+  <p class="CardHeader">Cards</p>
+
+  <form class="createFrom">
+    <label for="Title">Enter Title</label><br>
+    <input type="text" id="Title" name="Title" value="Enter"><br><br>
+
+    <label>Enter Description</label><br>
+    <input type="text" id="Description" name="Description" value="Enter"><br>
+    <br>
+    <label for="sections">Select Section</label>
+    <select name="sections" id="sections">
+      <option>To Do List</option>
+      <option>In_Progress</option>
+      <option>Done</option>
+      <br>
+      <input type="submit" value="Submit">
+    </select>
+  </form>
+
+
+
 
 </body>
 
