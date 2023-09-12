@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/boards/{boardId}/cards")
+@CrossOrigin("*")
 public class CardController {
     @Autowired
     private CardService cardService;

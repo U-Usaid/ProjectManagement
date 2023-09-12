@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/boards")
+@CrossOrigin("*")
 public class BoardController {
     @Autowired
     private BoardService boardService;
